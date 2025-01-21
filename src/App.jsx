@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Bootombar from './components/bootombar'
+// import Bootombar from './components/bootombar'
 import { Outlet } from 'react-router-dom'
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
       <footer>
         <Footer/>
       </footer>
-     <Bootombar/>
+     {/* <Bootombar/> */}
     </div>
   )
 }
