@@ -20,7 +20,7 @@ const App = () => {
       <footer>
         <Footer/>
       </footer>
-    <Bootombar/>
+     <Bootombar/>
     </div>
   )
 }
