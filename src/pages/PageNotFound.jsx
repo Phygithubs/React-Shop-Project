@@ -9,7 +9,7 @@ function PageNotFound() {
   return (
     <div className="text-center ">
       <img
-        src="https://i.pinimg.com/originals/bd/01/f6/bd01f6d7ea8f2dea0abf91d6d0adb7d8.gif" className=" w-auto" 
+        src="https://i.pinimg.com/originals/8f/5a/0b/8f5a0bdaf6826934b115990e666bff53.gif" className=" w-auto" 
         alt=""
       />
       <br />

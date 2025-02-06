@@ -4,6 +4,8 @@ import SwiperSlideEffect from "../components/SwiperSlideEffect";
 import { FaExchangeAlt, FaShippingFast } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 import Card from "../components/Cart";
+import Cart2 from "../components/Cart2";
+import LogoSection from "../components/LogoSection";
 
 function Home() {
   return (
@@ -87,12 +89,12 @@ function Home() {
           </div>
         </div>
         {/* categories */}
-        <div className="row align-items-center p-0" style={{marginTop:50}}>
+         <div className="row align-items-center p-0">
           <div className="col-12 col-lg-3">
-            <h1 className="m-0">CATEGROIES</h1>
+            <h1 className="mb-0">CATEGORIES</h1>
           </div>
-          <div className="col-12 col-lg-9 grey">
-            <hr style={{border:'1px dashed grey'}} />
+          <div className="col-12 col-lg-9">
+            <hr style={{ border: "1px dashed grey" }} />
           </div>
         </div>
 
@@ -255,15 +257,9 @@ function Home() {
             </div>
           </div>
         </div>
-          {/* <div className="row align-items-center p-0" style={{marginTop:50}}>
-            <div className="col-12 col-lg-3">
-              <h3 className="m-0">FEATURED PRODUCTS</h3>
-            </div>
-            <div className="col-12 col-lg-9 grey">
-              <hr style={{border:'1px dashed grey'}} />
-            </div>
-          </div> */}
           <Card/>
+          <Cart2/>
+          <LogoSection/>
       </div>
     </div>
   );

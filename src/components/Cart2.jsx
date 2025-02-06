@@ -3,8 +3,7 @@ import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaShoppingCart, FaHeart, FaSyncAlt, FaSearch } from "react-icons/fa";
 
-
-function Cart() {
+function Cart2() {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   const handleMouseEnter = (index) => {
@@ -102,46 +101,10 @@ function Cart() {
             </div>
           </div>
         ))}
-        <div className=" pt-5">
-          <div className="row">
-            {/* First Image Section */}
-            <div className="col-12 col-md-6 p-2 position-relative overflow-hidden">
-              <div className="position-absolute z-3 top-50 start-50 translate-middle text-light text-center font-poppins">
-                <p className="fs-6 m-0 save-text">Save 20%</p>
-                <h4 className="fw-medium">Special Offer</h4>
-                <button className="btn btn-outline-light rounded-0 px-4 mt-3">
-                  Shop Now
-                </button>
-              </div>
-              <img
-                style={{ filter: "brightness(65%)" }}
-                src="/image/offer-1.jpg"
-                alt="Special Offer"
-                className="w-100 h-100 object-fit-cover transition hover-scale"
-              />
-            </div>
-
-            {/* Second Image Section */}
-            <div className="col-12 col-md-6 p-2 position-relative overflow-hidden">
-              <div className="position-absolute z-3 top-50 start-50 translate-middle text-light text-center font-poppins">
-                <p className="fs-6 m-0 save-text">Save 20%</p>
-                <h4 className="fw-medium">Special Offer</h4>
-                <button className="btn btn-outline-light rounded-0 px-4 mt-3">
-                  Shop Now
-                </button>
-              </div>
-              <img
-                style={{ filter: "brightness(65%)" }}
-                src="/image/offer-2.jpg"
-                alt="Special Offer"
-                className="w-100 h-100 object-fit-cover transition hover-scale"
-              />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 }
 
-export default Cart;
+export default Cart2;
+
