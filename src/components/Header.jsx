@@ -113,18 +113,18 @@ function Header() {
               </button>
               <ul className="dropdown-menu w-100">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Action
+                  <a className="dropdown-item" href="/">
+                    Home
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
+                  <a className="dropdown-item" href="/ShopPage">
+                    Shop
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
+                  <a className="dropdown-item" href="/ContactPage">
+                    Conteat
                   </a>
                 </li>
               </ul>

@@ -123,7 +123,8 @@ function CartPage() {
           {/* Shipping and Payment Icons */}
           <div className="mt-3">
             <p>
-              <strong>Expected shipping delivery:</strong> 12.10.2020 - 14.10.2020
+              <strong>Expected shipping delivery:</strong> 12.10.2020 -
+              14.10.2020
             </p>
             <div className="d-flex justify-content-between mb-1">
               <img

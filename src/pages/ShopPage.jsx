@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useCart } from "../context/CartContext";
 
 function ShopPage() {
-  const { addToCart} = useCart();
+  const { addToCart } = useCart();
   const [hoverIndex, setHoverIndex] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("");
   const [sortOption, setSortOption] = useState("");
@@ -382,4 +382,3 @@ function ShopPage() {
 }
 
 export default ShopPage;
-
